@@ -1,4 +1,4 @@
-package sem_01;
+package sem_01.task_0;
 
 //        Задание №0
 //        Реализуйте метод, принимающий в качестве аргумента
@@ -9,7 +9,7 @@ package sem_01;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(prov(new int[]{1,2,3,4,5}, 6));
+        System.out.println(prov(new int[]{1,2,3,4,5}, 4));
 
     }
     public static int prov(int[] arr, int minLength){
