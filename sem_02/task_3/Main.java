@@ -61,6 +61,17 @@ public class Main {
         }
     }
 
+//    public static float isFloat(String input) {
+//        // Введите свое решение ниже
+//        try {
+//            float fl = Float.parseFloat(input);
+//            return fl;
+//        } catch (NumberFormatException e) {
+//            //return null;
+//        }
+//        return Float.NaN;
+//    }
+
     public static void writeFile(String patch, List<String[]> arrayNames) {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(patch));
